@@ -9,7 +9,7 @@ first_rem = ''  # инициализация переменных времени
 second_rem = ''
 end_rem = ''
 
-bot = telebot.TeleBot('Вставьте свой токен!')
+bot = telebot.TeleBot('Вставьте свой токен here!')
 
 @bot.message_handler(commands=['start'])  # декоратор
 def start_message(message):  # сейчас мы б. обрабат. команду /start
